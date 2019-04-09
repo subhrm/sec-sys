@@ -1,2 +1,1 @@
-# sec-sys
-Advance Security &amp; Surveillance System
+# Advance Security &amp; Surveillance System
