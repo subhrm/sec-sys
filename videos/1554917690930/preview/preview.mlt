@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_IN" version="6.6.0" root="/home/subhendu" title="Anonymous Submission" producer="main bin">
+  <profile description="HD 720p 24 fps" width="1280" height="720" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="24" frame_rate_den="1" colorspace="709"/>
+  <producer id="1" title="Anonymous Submission" in="0" out="431">
+    <property name="length">432</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/Docs/slide-images/.all.jpg</property>
+    <property name="ttl">144</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">0</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="crop">0</property>
+    <property name="fade">1</property>
+    <property name="kdenlive:clipname">Slideshow Clip</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="luma_duration">24</property>
+    <property name="softness">0</property>
+    <property name="kdenlive:duration">432</property>
+    <property name="kdenlive:file_hash">c92a3a72fd1c5e5c5df042810c9f86eb</property>
+    <property name="global_feed">1</property>
+    <property name="luma_file">/usr/share/mlt/lumas/PAL/luma06.pgm</property>
+    <filter id="filter0">
+      <property name="mlt_service">luma</property>
+      <property name="cycle">144</property>
+      <property name="duration">24</property>
+      <property name="luma.resource">/usr/share/mlt/lumas/PAL/luma06.pgm</property>
+      <property name="luma.softness">0</property>
+    </filter>
+    <filter id="avfilter.acrusher">
+      <property name="mlt_service">avfilter.acrusher</property>
+      <property name="kdenlive_id">avfilter.acrusher</property>
+      <property name="tag">avfilter.acrusher</property>
+      <property name="kdenlive_ix">1</property>
+      <property name="kdenlive_info"></property>
+      <property name="av.level_in">1</property>
+      <property name="av.level_out">1</property>
+      <property name="av.bits">8</property>
+      <property name="av.mix">0.5</property>
+      <property name="av.dc">1</property>
+      <property name="av.aa">0.5</property>
+      <property name="av.samples">1</property>
+      <property name="av.lforange">20</property>
+      <property name="av.lforate">0.3</property>
+    </filter>
+  </producer>
+  <producer id="2" title="Anonymous Submission" in="0" out="4062">
+    <property name="length">4063</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/musi/bensound-littleidea.mp3</property>
+    <property name="seekable">1</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="kdenlive:file_size">2370194</property>
+    <property name="kdenlive:file_hash">76818ef174fdc05b5cc283eadb774254</property>
+    <property name="global_feed">1</property>
+  </producer>
+  <producer id="5" title="Anonymous Submission" in="0" out="71">
+    <property name="length">72</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/Docs/slide-images/demo/.all.jpg</property>
+    <property name="ttl">72</property>
+    <property name="aspect_ratio">1</property>
+    <property name="progressive">1</property>
+    <property name="seekable">1</property>
+    <property name="loop">0</property>
+    <property name="mlt_service">pixbuf</property>
+    <property name="animation"></property>
+    <property name="crop">0</property>
+    <property name="fade">0</property>
+    <property name="kdenlive:clipname">Slideshow Clip</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="luma_duration">24</property>
+    <property name="luma_file"></property>
+    <property name="softness">0</property>
+    <property name="kdenlive:duration">72</property>
+    <property name="kdenlive:file_hash">9b85d8af9b324d4153e4478075ba8570</property>
+    <property name="global_feed">1</property>
+  </producer>
+  <producer id="6" title="Anonymous Submission" in="0" out="6129">
+    <property name="length">6130</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/raw/Infy-Hackathon-Demo-Take1.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1.00074</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="kdenlive:file_size">2825337</property>
+    <property name="kdenlive:file_hash">cda077e8c35e08c72f200b82689aa3e4</property>
+    <property name="kdenlive:zone_in">143</property>
+    <property name="kdenlive:zone_out">330</property>
+    <property name="global_feed">1</property>
+  </producer>
+  <producer id="7" title="Anonymous Submission" in="0" out="806">
+    <property name="length">807</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/raw/Infy-Hackathon-Demo-Take2.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1.00074</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="kdenlive:file_size">598949</property>
+    <property name="kdenlive:file_hash">adca4bc94b478f837a475d0fbeacd0fe</property>
+    <property name="global_feed">1</property>
+  </producer>
+  <producer id="8" title="Anonymous Submission" in="0" out="1862">
+    <property name="length">1863</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/raw/Infy-Hackathon-Demo-Take3.mp4</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1.00074</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="kdenlive:file_size">4524901</property>
+    <property name="kdenlive:file_hash">1438ae27d25847dafc6e1b6906041b7d</property>
+    <property name="global_feed">1</property>
+  </producer>
+  <playlist id="main bin">
+    <property name="xml_retain">1</property>
+    <entry producer="1" in="0" out="431"/>
+    <entry producer="2" in="0" out="4062"/>
+    <entry producer="5" in="0" out="71"/>
+    <entry producer="6" in="0" out="6129"/>
+    <entry producer="7" in="0" out="806"/>
+    <entry producer="8" in="0" out="1862"/>
+  </playlist>
+  <producer id="black" in="0" out="500">
+    <property name="length">15000</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">0</property>
+    <property name="mlt_service">colour</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="black_track">
+    <entry producer="black" in="0" out="4079"/>
+  </playlist>
+  <playlist id="playlist1"/>
+  <producer id="2_playlist2" title="Anonymous Submission" in="0" out="4062">
+    <property name="length">4063</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/musi/bensound-littleidea.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="kdenlive:file_size">2370194</property>
+    <property name="kdenlive:file_hash">76818ef174fdc05b5cc283eadb774254</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist2">
+    <blank length="16"/>
+    <entry producer="2_playlist2" in="0" out="4062"/>
+  </playlist>
+  <producer id="6_playlist4" title="Anonymous Submission" in="0" out="6129">
+    <property name="length">6130</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/raw/Infy-Hackathon-Demo-Take1.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1.00074</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="kdenlive:file_size">2825337</property>
+    <property name="kdenlive:file_hash">cda077e8c35e08c72f200b82689aa3e4</property>
+    <property name="kdenlive:zone_in">143</property>
+    <property name="kdenlive:zone_out">330</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist3">
+    <blank length="16"/>
+    <entry producer="1" in="0" out="431"/>
+    <entry producer="5" in="0" out="71"/>
+    <entry producer="6_playlist4" in="17" out="344">
+      <filter id="qtblend">
+        <property name="rotate_center">1</property>
+        <property name="mlt_service">qtblend</property>
+        <property name="kdenlive_id">qtblend</property>
+        <property name="tag">qtblend</property>
+        <property name="kdenlive_ix">1</property>
+        <property name="rect">17=-500 -150 1920 1080 1</property>
+        <property name="rotation">17=0</property>
+        <property name="compositing">0</property>
+        <property name="distort">0</property>
+        <property name="kdenlive_info"></property>
+      </filter>
+    </entry>
+  </playlist>
+  <producer id="7_playlist4" title="Anonymous Submission" in="0" out="806">
+    <property name="length">807</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/raw/Infy-Hackathon-Demo-Take2.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1.00074</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="kdenlive:file_size">598949</property>
+    <property name="kdenlive:file_hash">adca4bc94b478f837a475d0fbeacd0fe</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist4">
+    <blank length="878"/>
+    <entry producer="7_playlist4" in="154" out="739"/>
+  </playlist>
+  <producer id="8_playlist5" title="Anonymous Submission" in="0" out="1862">
+    <property name="length">1863</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/raw/Infy-Hackathon-Demo-Take3.mp4</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1.00074</property>
+    <property name="kdenlive:folderid">-1</property>
+    <property name="kdenlive:file_size">4524901</property>
+    <property name="kdenlive:file_hash">1438ae27d25847dafc6e1b6906041b7d</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist5">
+    <blank length="1585"/>
+    <entry producer="8_playlist5" in="0" out="1862"/>
+  </playlist>
+  <producer id="producer0" in="0" out="24">
+    <property name="length">25</property>
+    <property name="eof">pause</property>
+    <property name="resource">Documents/my_play_ground/infy_global_hackathon_201903/sec-sys/videos/1554917690930/preview/0.avi</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="audio_index">-1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">1</property>
+    <property name="mlt_service">avformat-novalidate</property>
+  </producer>
+  <playlist id="timeline_preview">
+    <entry producer="producer0" in="0" out="24"/>
+  </playlist>
+  <tractor id="maintractor" title="Anonymous Submission" global_feed="1" in="0" out="4079">
+    <track producer="black_track"/>
+    <track producer="playlist1" hide="video"/>
+    <track producer="playlist2" hide="video"/>
+    <track producer="playlist3"/>
+    <track producer="playlist4"/>
+    <track producer="playlist5"/>
+    <track producer="timeline_preview" hide="audio"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+      <property name="internal_added">237</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+      <property name="internal_added">237</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+      <property name="internal_added">237</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">3</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+      <property name="rotate_center">0</property>
+      <property name="mlt_service">qtblend</property>
+      <property name="internal_added">237</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+      <property name="internal_added">237</property>
+    </transition>
+    <transition id="transition5">
+      <property name="a_track">0</property>
+      <property name="b_track">4</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+      <property name="rotate_center">0</property>
+      <property name="mlt_service">qtblend</property>
+      <property name="internal_added">237</property>
+    </transition>
+    <transition id="transition6">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+      <property name="internal_added">237</property>
+    </transition>
+    <transition id="transition7">
+      <property name="a_track">0</property>
+      <property name="b_track">5</property>
+      <property name="compositing">0</property>
+      <property name="distort">0</property>
+      <property name="rotate_center">0</property>
+      <property name="mlt_service">qtblend</property>
+      <property name="internal_added">237</property>
+    </transition>
+  </tractor>
+</mlt>
